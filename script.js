@@ -18,8 +18,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1530/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS1530/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS1530/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS1530/Ersatzteilliste.pdf'
@@ -35,8 +38,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1532/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS1532/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS1532/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS1532/Ersatzteilliste.pdf'
@@ -52,8 +58,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1930/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS1930/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS1930/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS1930/Ersatzteilliste.pdf'
@@ -69,8 +78,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1932/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS1932/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS1932/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS1932/Ersatzteilliste.pdf'
@@ -86,8 +98,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1932 EDrive/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS1932 EDrive/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS1932 EDrive/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS1932 EDrive/Ersatzteilliste.pdf'
@@ -103,8 +118,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2032/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2032/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2032/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2032/Ersatzteilliste.pdf'
@@ -120,8 +138,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2046/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2046/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2046/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2046/Ersatzteilliste.pdf'
@@ -137,8 +158,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2046 EDrive/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2046 EDrive/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2046 EDrive/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2046 EDrive/Ersatzteilliste.pdf'
@@ -154,8 +178,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2632/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2632/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2632/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2632/Ersatzteilliste.pdf'
@@ -171,8 +198,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2646/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2646/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2646/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2646/Ersatzteilliste.pdf'
@@ -188,8 +218,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2669DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2669DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2669DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2669DC/Ersatzteilliste.pdf'
@@ -205,8 +238,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS2669RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS2669RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS2669RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS2669RT/Ersatzteilliste.pdf'
@@ -222,8 +258,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3232/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3232/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3232/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3232/Ersatzteilliste.pdf'
@@ -239,8 +278,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3232 EDrive/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3232 EDrive/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3232 EDrive/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3232 EDrive/Ersatzteilliste.pdf'
@@ -256,8 +298,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3246/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3246/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3246/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3246/Ersatzteilliste.pdf'
@@ -273,8 +318,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3369DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3369DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3369DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3369DC/Ersatzteilliste.pdf'
@@ -290,8 +338,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3369RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3369RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3369RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3369RT/Ersatzteilliste.pdf'
@@ -307,8 +358,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS3390RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS3390RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS3390RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS3390RT/Ersatzteilliste.pdf'
@@ -324,8 +378,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS4047/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS4047/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS4047/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS4047/Ersatzteilliste.pdf'
@@ -341,8 +398,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS4069BE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS4069BE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS4069BE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS4069BE/Ersatzteilliste.pdf'
@@ -358,8 +418,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS4069DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS4069DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS4069DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS4069DC/Ersatzteilliste.pdf'
@@ -375,8 +438,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS4069RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS4069RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS4069RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS4069RT/Ersatzteilliste.pdf'
@@ -392,8 +458,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS4390RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS4390RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS4390RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS4390RT/Ersatzteilliste.pdf'
@@ -409,8 +478,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/GS5390RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/GS5390RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/GS5390RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/GS5390RT/Ersatzteilliste.pdf'
@@ -426,8 +498,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z30_20NRJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z30_20NRJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z30_20NRJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z30_20NRJ/Ersatzteilliste.pdf'
@@ -443,8 +518,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z40_23NRJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z40_23NRJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z40_23NRJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z40_23NRJ/Ersatzteilliste.pdf'
@@ -460,8 +538,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z45/25JRT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z45/25JRT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z45/25JRT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z45/25JRT/Ersatzteilliste.pdf'
@@ -477,8 +558,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z45_25J_BiEnergy/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z45_25J_BiEnergy/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z45_25J_BiEnergy/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z45_25J_BiEnergy/Ersatzteilliste.pdf'
@@ -494,8 +578,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S45/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S45/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S45/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S45/Ersatzteilliste.pdf'
@@ -511,8 +598,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S45XC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S45XC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S45XC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S45XC/Ersatzteilliste.pdf'
@@ -528,8 +618,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S45_TRAX/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S45_TRAX/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S45_TRAX/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S45_TRAX/Ersatzteilliste.pdf'
@@ -545,8 +638,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z51_30JRT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z51_30JRT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z51_30JRT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z51_30JRT/Ersatzteilliste.pdf'
@@ -562,8 +658,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S60/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S60/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S60/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S60/Ersatzteilliste.pdf'
@@ -579,8 +678,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z60_34/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z60_34/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z60_34/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z60_34/Ersatzteilliste.pdf'
@@ -596,8 +698,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z60_37FE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z60_37FE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z60_37FE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z60_37FE/Ersatzteilliste.pdf'
@@ -613,8 +718,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S65XC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S65XC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S65XC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S65XC/Ersatzteilliste.pdf'
@@ -630,8 +738,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S65XC_TRAX/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S65XC_TRAX/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S65XC_TRAX/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S65XC_TRAX/Ersatzteilliste.pdf'
@@ -647,8 +758,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z80_60/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z80_60/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z80_60/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z80_60/Ersatzteilliste.pdf'
@@ -664,8 +778,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/S85XC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/S85XC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/S85XC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/S85XC/Ersatzteilliste.pdf'
@@ -681,8 +798,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/SX_105XC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/SX_105XC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/SX_105XC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/SX_105XC/Ersatzteilliste.pdf'
@@ -698,8 +818,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/SX_125XC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/SX_125XC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/SX_125XC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/SX_125XC/Ersatzteilliste.pdf'
@@ -715,8 +838,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/Z135_70/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/Z135_70/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/Z135_70/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/Z135_70/Ersatzteilliste.pdf'
@@ -732,8 +858,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/Genie/ZX_135_70/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/Genie/ZX_135_70/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/Genie/ZX_135_70/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/Genie/ZX_135_70/Ersatzteilliste.pdf'
@@ -751,8 +880,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/1230ES/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/1230ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/1230ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/1230ES/Ersatzteilliste.pdf'
@@ -768,8 +900,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/ES1530L/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/ES1530L/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/ES1530L/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/ES1530L/Ersatzteilliste.pdf'
@@ -785,8 +920,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/1930ES/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/1930ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/1930ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/1930ES/Ersatzteilliste.pdf'
@@ -802,8 +940,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/2032ES/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/2032ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/2032ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/2032ES/Ersatzteilliste.pdf'
@@ -819,8 +960,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/2632ES/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/2632ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/2632ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/2632ES/Ersatzteilliste.pdf'
@@ -836,8 +980,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/2646ES/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/2646ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/2646ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/2646ES/Ersatzteilliste.pdf'
@@ -853,8 +1000,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/M3369/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/M3369/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/M3369/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/M3369/Ersatzteilliste.pdf'
@@ -870,8 +1020,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/E300AJP/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/E300AJP/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/E300AJP/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/E300AJP/Ersatzteilliste.pdf'
@@ -887,8 +1040,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/E400AJPN/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/E400AJPN/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/E400AJPN/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/E400AJPN/Ersatzteilliste.pdf'
@@ -904,8 +1060,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/450AJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/450AJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/450AJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/450AJ/Ersatzteilliste.pdf'
@@ -921,8 +1080,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/460SJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/460SJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/460SJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/460SJ/Ersatzteilliste.pdf'
@@ -938,8 +1100,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/460SJC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/460SJC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/460SJC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/460SJC/Ersatzteilliste.pdf'
@@ -955,8 +1120,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/660SJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/660SJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/660SJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/660SJ/Ersatzteilliste.pdf'
@@ -972,8 +1140,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/1350SJP/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/1350SJP/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/1350SJP/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/1350SJP/Ersatzteilliste.pdf'
@@ -989,8 +1160,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/Toucan8E_L/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/Toucan8E_L/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/Toucan8E_L/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/Toucan8E_L/Ersatzteilliste.pdf'
@@ -1006,8 +1180,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/Toucan12E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/Toucan12E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/Toucan12E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/Toucan12E/Ersatzteilliste.pdf'
@@ -1023,8 +1200,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/JLG/Toucan12E_Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/JLG/Toucan12E_Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/JLG/Toucan12E_Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/JLG/Toucan12E_Plus/Ersatzteilliste.pdf'
@@ -1040,8 +1220,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/X15J_Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/X15J_Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/X15J_Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/X15J_Plus/Ersatzteilliste.pdf'
@@ -1057,8 +1240,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
         'pdf/X18J_Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
         'pdf/X18J_Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+        'pdf/X18J_Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
         'pdf/X18J_Plus/Ersatzteilliste.pdf'
@@ -1076,8 +1262,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS0407DC_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS0407DC_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS0407DC_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS0407DC_LI/Ersatzteilliste.pdf'
@@ -1093,8 +1282,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS0607ACW_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS0607ACW_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS0607ACW_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS0607ACW_LI/Ersatzteilliste.pdf'
@@ -1110,8 +1302,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS0808AC_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS0808AC_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS0808AC_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS0808AC_LI/Ersatzteilliste.pdf'
@@ -1127,8 +1322,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS0812AC_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS0812AC_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS0812AC_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS0812AC_LI/Ersatzteilliste.pdf'
@@ -1144,8 +1342,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS1012AC-LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS1012AC-LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS1012AC-LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS1012AC-LI/Ersatzteilliste.pdf'
@@ -1161,8 +1362,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS1212AC-LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS1212AC-LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS1212AC-LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS1212AC-LI/Ersatzteilliste.pdf'
@@ -1178,8 +1382,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS1414AC-LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS1414AC-LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS1414AC-LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS1414AC-LI/Ersatzteilliste.pdf'
@@ -1195,8 +1402,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZA10RJE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZA10RJE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZA10RJE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZA10RJE/Ersatzteilliste.pdf'
@@ -1212,8 +1422,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZT14J_V/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZT14J_V/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZT14J_V/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZT14J_V/Ersatzteilliste.pdf'
@@ -1229,8 +1442,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZA14NJE_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZA14NJE_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZA14NJE_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZA14NJE_LI/Ersatzteilliste.pdf'
@@ -1246,8 +1462,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZA16JERT_LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZA16JERT_LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZA16JERT_LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZA16JERT_LI/Ersatzteilliste.pdf'
@@ -1263,8 +1482,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZS1623RT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZS1623RT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZS1623RT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZS1623RT/Ersatzteilliste.pdf'
@@ -1280,8 +1502,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZT20J/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZT20J/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZT20J/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZT20J/Ersatzteilliste.pdf'
@@ -1297,8 +1522,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZA20JERT-LI/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZA20JERT-LI/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZA20JERT-LI/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZA20JERT-LI/Ersatzteilliste.pdf'
@@ -1314,8 +1542,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZT22JE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZT22JE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZT22JE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZT22JE/Ersatzteilliste.pdf'
@@ -1331,8 +1562,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZA24J/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZA24J/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZA24J/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZA24J/Ersatzteilliste.pdf'
@@ -1348,8 +1582,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZT26JE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZT26JE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZT26JE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZT26JE/Ersatzteilliste.pdf'  
@@ -1365,8 +1602,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Zoomlion/ZT38JE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Zoomlion/ZT38JE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Zoomlion/ZT38JE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Zoomlion/ZT38JE/Ersatzteilliste.pdf'
@@ -1384,8 +1624,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Haulotte/Star_10/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Haulotte/Star_10/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Haulotte/Star_10/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Haulotte/Star_10/Ersatzteilliste.pdf'  
@@ -1401,8 +1644,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Haulotte/HA12CJ+/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Haulotte/HA12CJ+/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Haulotte/HA12CJ+/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Haulotte/HA12CJ+/Ersatzteilliste.pdf'  
@@ -1418,8 +1664,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Haulotte/HA15IP/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Haulotte/HA15IP/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Haulotte/HA15IP/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Haulotte/HA15IP/Ersatzteilliste.pdf'
@@ -1437,8 +1686,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR15NE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR15NE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR15NE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR15NE/Ersatzteilliste.pdf' 
@@ -1454,8 +1706,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR17N_Hybrid/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR17N_Hybrid/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR17N_Hybrid/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR17N_Hybrid/Ersatzteilliste.pdf' 
@@ -1471,8 +1726,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR17_Hybrid_4X4/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR17_Hybrid_4X4/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR17_Hybrid_4X4/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR17_Hybrid_4X4/Ersatzteilliste.pdf' 
@@ -1488,8 +1746,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR21_Hybrid_4X4/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR21_Hybrid_4X4/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR21_Hybrid_4X4/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR21_Hybrid_4X4/Ersatzteilliste.pdf' 
@@ -1505,8 +1766,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR28_Hybrid_4X4/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR28_Hybrid_4X4/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR28_Hybrid_4X4/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR28_Hybrid_4X4/Ersatzteilliste.pdf' 
@@ -1522,8 +1786,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Niftylift/HR28E_4X4/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Niftylift/HR28E_4X4/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Niftylift/HR28E_4X4/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Niftylift/HR28E_4X4/Ersatzteilliste.pdf'
@@ -1541,8 +1808,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT0607A/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT0607A/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT0607A/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT0607A/Ersatzteilliste.pdf'   
@@ -1558,8 +1828,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT1218DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT1218DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT1218DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT1218DC/Ersatzteilliste.pdf'   
@@ -1575,8 +1848,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT1418DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT1418DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT1418DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT1418DC/Ersatzteilliste.pdf'   
@@ -1592,8 +1868,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT1523DCB/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT1523DCB/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT1523DCB/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT1523DCB/Ersatzteilliste.pdf'   
@@ -1609,8 +1888,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT1823DCB/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT1823DCB/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT1823DCB/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT1823DCB/Ersatzteilliste.pdf'   
@@ -1626,8 +1908,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT1912DCL/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT1912DCL/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT1912DCL/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT1912DCL/Ersatzteilliste.pdf'   
@@ -1643,8 +1928,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/JCPT2223DC/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/JCPT2223DC/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/JCPT2223DC/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/JCPT2223DC/Ersatzteilliste.pdf'   
@@ -1660,8 +1948,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/BT28BERT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/BT28BERT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/BT28BERT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/BT28BERT/Ersatzteilliste.pdf'   
@@ -1677,8 +1968,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Dingli/BT34BERT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Dingli/BT34BERT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Dingli/BT34BERT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Dingli/BT34BERT/Ersatzteilliste.pdf' 
@@ -1696,8 +1990,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJ12/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJ12/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJ12/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJ12/Ersatzteilliste.pdf'  
@@ -1713,8 +2010,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJ16/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJ16/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJ16/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJ16/Ersatzteilliste.pdf'  
@@ -1730,8 +2030,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJIII 3219/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJIII 3219/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJIII 3219/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJIII 3219/Ersatzteilliste.pdf'  
@@ -1747,8 +2050,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJIII_3226/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJIII_3226/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJIII_3226/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJIII_3226/Ersatzteilliste.pdf'  
@@ -1764,8 +2070,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJIII_4632/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJIII_4632/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJIII_4632/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJIII_4632/Ersatzteilliste.pdf'    
@@ -1781,8 +2090,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Skyjack/SJ6832_RTE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Skyjack/SJ6832_RTE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Skyjack/SJ6832_RTE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Skyjack/SJ6832_RTE/Ersatzteilliste.pdf'  
@@ -1800,8 +2112,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Holland Lift/Monostar/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Holland Lift/Monostar/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Holland Lift/Monostar/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Holland Lift/Monostar/Ersatzteilliste.pdf'
@@ -1819,8 +2134,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S131-19E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S131-19E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S131-19E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S131-19E/Ersatzteilliste.pdf'
@@ -1836,8 +2154,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S151-12 ES/Fehlercodeliste.pdf',
  
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S151-12 ES/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S151-12 ES/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S151-12 ES/Ersatzteilliste.pdf'
@@ -1853,8 +2174,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S151-12E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S151-12E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S151-12E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S151-12E/Ersatzteilliste.pdf'
@@ -1870,8 +2194,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S151-16E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S151-16E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S151-16E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S151-16E/Ersatzteilliste.pdf'
@@ -1887,8 +2214,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S171-12E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S171-12E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S171-12E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S171-12E/Ersatzteilliste.pdf'
@@ -1904,8 +2234,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S171-16E/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S171-16E/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S171-16E/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S171-16E/Ersatzteilliste.pdf'
@@ -1921,8 +2254,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/PB Lift/S225-23 DS 4X4/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/PB Lift/S225-23 DS 4X4/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/PB Lift/S225-23 DS 4X4/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/PB Lift/S225-23 DS 4X4/Ersatzteilliste.pdf' 
@@ -1940,8 +2276,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Bravi/Leonardo/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Bravi/Leonardo/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Bravi/Leonardo/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Bravi/Leonardo/Ersatzteilliste.pdf'
@@ -1959,8 +2298,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Gefas/Helix 1205/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Gefas/Helix 1205/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Gefas/Helix 1205/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Gefas/Helix 1205/Ersatzteilliste.pdf'
@@ -1976,8 +2318,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Gefas/Helix 1508/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Gefas/Helix 1508/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Gefas/Helix 1508/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Gefas/Helix 1508/Ersatzteilliste.pdf'
@@ -1995,8 +2340,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO15GT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO15GT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO15GT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO15GT/Ersatzteilliste.pdf'
@@ -2012,8 +2360,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO18GT Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO18GT Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO18GT Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO18GT Plus/Ersatzteilliste.pdf'
@@ -2029,8 +2380,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO21GT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO21GT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO21GT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO21GT/Ersatzteilliste.pdf'
@@ -2046,8 +2400,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO23T/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO23T/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO23T/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO23T/Ersatzteilliste.pdf'
@@ -2063,8 +2420,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO23GT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO23GT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO23GT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO23GT/Ersatzteilliste.pdf'
@@ -2080,8 +2440,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO24GT/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO24GT/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO24GT/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO24GT/Ersatzteilliste.pdf'
@@ -2097,8 +2460,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO25T Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO25T Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO25T Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO25T Plus/Ersatzteilliste.pdf'
@@ -2114,8 +2480,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO30T/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO30T/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO30T/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO30T/Ersatzteilliste.pdf'
@@ -2131,8 +2500,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO31T/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO31T/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO31T/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO31T/Ersatzteilliste.pdf'
@@ -2148,8 +2520,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO35T Plus/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO35T Plus/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO35T Plus/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO35T Plus/Ersatzteilliste.pdf'
@@ -2165,8 +2540,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Teupen/LEO36T/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Teupen/LEO36T/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Teupen/LEO36T/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Teupen/LEO36T/Ersatzteilliste.pdf'
@@ -2184,8 +2562,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Almac/Bibi 1090_BL EVO/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Almac/Bibi 1090_BL EVO/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Almac/Bibi 1090_BL EVO/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Almac/Bibi 1090_BL EVO/Ersatzteilliste.pdf'
@@ -2201,8 +2582,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Almac/Jibbi 1250 EVO/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Almac/Jibbi 1250 EVO/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Almac/Jibbi 1250 EVO/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Almac/Jibbi 1250 EVO/Ersatzteilliste.pdf'
@@ -2218,8 +2602,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Almac/Jibbi 1670 EVO/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Almac/Jibbi 1670 EVO/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Almac/Jibbi 1670 EVO/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Almac/Jibbi 1670 EVO/Ersatzteilliste.pdf'
@@ -2237,8 +2624,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/100VJR/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/100VJR/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/100VJR/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/100VJR/Ersatzteilliste.pdf'
@@ -2254,8 +2644,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/120AETJ_C_3D/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/120AETJ_C_3D/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/120AETJ_C_3D/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/120AETJ_C_3D/Ersatzteilliste.pdf'
@@ -2271,8 +2664,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/150AETJ_C_3D/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/150AETJ_C_3D/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/150AETJ_C_3D/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/150AETJ_C_3D/Ersatzteilliste.pdf'
@@ -2288,8 +2684,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/160ATJ+ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/160ATJ+ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/160ATJ+ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/160ATJ+ST5_S1/Ersatzteilliste.pdf'
@@ -2305,8 +2704,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/170AETJL/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/170AETJL/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/170AETJL/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/170AETJL/Ersatzteilliste.pdf'
@@ -2322,8 +2724,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/200ATJE/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/200ATJE/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/200ATJE/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/200ATJE/Ersatzteilliste.pdf'
@@ -2339,8 +2744,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/280TJ/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/280TJ/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/280TJ/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/280TJ/Ersatzteilliste.pdf'
@@ -2356,8 +2764,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/M30-4_ST3B/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/M30-4_ST3B/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/M30-4_ST3B/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/M30-4_ST3B/Ersatzteilliste.pdf'
@@ -2373,8 +2784,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/M30_4D_ST5_S1_EU/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/M30_4D_ST5_S1_EU/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/M30_4D_ST5_S1_EU/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/M30_4D_ST5_S1_EU/Ersatzteilliste.pdf'
@@ -2390,8 +2804,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT625H_Comfort_75K_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT625H_Comfort_75K_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT625H_Comfort_75K_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT625H_Comfort_75K_ST5_S1/Ersatzteilliste.pdf'
@@ -2407,8 +2824,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT930H_75K_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT930H_75K_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT930H_75K_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT930H_75K_ST5_S1/Ersatzteilliste.pdf'
@@ -2424,8 +2844,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT933_Easy_75D_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Ersatzteilliste.pdf'
@@ -2441,8 +2864,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT933_Easy_75D_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT933_Easy_75D_ST5_S1/Ersatzteilliste.pdf'
@@ -2458,8 +2884,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Ersatzteilliste.pdf'
@@ -2475,8 +2904,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT1440_Easy_75D_ST5_S1/Ersatzteilliste.pdf'
@@ -2492,8 +2924,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MT1840_Easy_75D_ST5_S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MT1840_Easy_75D_ST5_S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MT1840_Easy_75D_ST5_S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MT1840_Easy_75D_ST5_S1/Ersatzteilliste.pdf'
@@ -2509,8 +2944,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MRT1840_Easy_400°_ST3B/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MRT1840_Easy_400°_ST3B/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MRT1840_Easy_400°_ST3B/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MRT1840_Easy_400°_ST3B/Ersatzteilliste.pdf'
@@ -2526,8 +2964,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MRT2145 360 115D ST5 S1/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MRT2145 360 115D ST5 S1/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MRT2145 360 115D ST5 S1/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MRT2145 360 115D ST5 S1/Ersatzteilliste.pdf'
@@ -2543,8 +2984,11 @@ const herstellerDaten = {
     '⚠️ Fehlercodes':
       'pdf/Manitou/MRT2150_Privilege+_ST4_S2/Fehlercodeliste.pdf',
 
-    '⚡ Schaltplan':
+    '⚡ Elektroschaltplan':
       'pdf/Manitou/MRT2150_Privilege+_ST4_S2/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Manitou/MRT2150_Privilege+_ST4_S2/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Manitou/MRT2150_Privilege+_ST4_S2/Ersatzteilliste.pdf'
@@ -3153,3 +3597,4 @@ window.schliessePdf =
 */
 
 zeigeStartseite();
+
