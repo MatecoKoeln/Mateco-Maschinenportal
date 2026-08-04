@@ -3011,7 +3011,6 @@ const herstellerDaten = {
 
     '⚠️ Fehlercodes':
       'pdf/Fronius/Fehlercodeliste.pdf',
-      'pdf/Fronius/Fehlercodeliste2.pdf',
 
     '⚡ Elektroschaltplan':
       'pdf/Fronius/Selektiva/Schaltplan.pdf',
