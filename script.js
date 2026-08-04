@@ -3035,7 +3035,7 @@ const herstellerDaten = {
     '⚡ Elektroschaltplan':
       'pdf/Fronius/Selektiva 3KW/Schaltplan.pdf',
 
-    '💧 Hydraulikschaltplan':
+    '💧 Ladekennlinien':
       'pdf/Fronius/Selektiva 3KW/Hydraulikschaltplan.pdf',
 
     '🔧 Ersatzteilliste':
