@@ -2173,6 +2173,59 @@ const herstellerDaten = {
     }
   },
 
+  Almac: {
+  'Bibi 1090-BL EVO (Telekopmast)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Almac/Bibi 1090_BL EVO/Bedienungsanleitung.pdf',
+
+    '📘 Serviceanleitung':
+      'pdf/Almac/Bibi 1090_BL EVO/Serviceanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Almac/Bibi 1090_BL EVO/Fehlercodeliste.pdf',
+
+    '⚡ Schaltplan':
+      'pdf/Almac/Bibi 1090_BL EVO/Schaltplan.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Almac/Bibi 1090_BL EVO/Ersatzteilliste.pdf'
+  },
+
+  'Jibbi 1250 EVO (Kette)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Almac/Jibbi 1250 EVO/Bedienungsanleitung.pdf',
+
+    '📘 Serviceanleitung':
+      'pdf/Almac/Jibbi 1250 EVO/Serviceanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Almac/Jibbi 1250 EVO/Fehlercodeliste.pdf',
+
+    '⚡ Schaltplan':
+      'pdf/Almac/Jibbi 1250 EVO/Schaltplan.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Almac/Jibbi 1250 EVO/Ersatzteilliste.pdf'
+  },
+
+  'Jibbi 1670 EVO (Kette)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Almac/Jibbi 1670 EVO/Bedienungsanleitung.pdf',
+
+    '📘 Serviceanleitung':
+      'pdf/Almac/Jibbi 1670 EVO/Serviceanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Almac/Jibbi 1670 EVO/Fehlercodeliste.pdf',
+
+    '⚡ Schaltplan':
+      'pdf/Almac/Jibbi 1670 EVO/Schaltplan.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Almac/Jibbi 1670 EVO/Ersatzteilliste.pdf'
+    }
+  },
+
   Manitou: {
   '100VJR (Teleskopmast)': {
     '📄 Bedienungsanleitung':
