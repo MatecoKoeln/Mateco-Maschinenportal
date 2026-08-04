@@ -2999,10 +2999,9 @@ const herstellerDaten = {
     'TS0625 (Teleskopstapler)': {},
     'TS0932 (Teleskopstapler)': {},
     'TS1440 (Teleskopstapler)': {}
-    }
   },
 
-  'Ladegeräte: {
+  'Ladegeräte': {
   'Fronius Selectiva (Werkstatt Ladegrät)': {
     '📄 Bedienungsanleitung':
       'pdf/Fronius/Monostar/Bedienungsanleitung.pdf',
@@ -3042,6 +3041,7 @@ const herstellerDaten = {
     '🔧 Ersatzteilliste':
       'pdf/Fronius/Selektiva 3KW/Ersatzteilliste.pdf'
     }
+  }
   };
 
 
