@@ -2999,8 +2999,50 @@ const herstellerDaten = {
     'TS0625 (Teleskopstapler)': {},
     'TS0932 (Teleskopstapler)': {},
     'TS1440 (Teleskopstapler)': {}
-  }
-};
+    }
+  },
+
+  'Ladegeräte: {
+  'Fronius Selectiva (Werkstatt Ladegrät)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Fronius/Monostar/Bedienungsanleitung.pdf',
+
+    '📘 Serviceanleitung':
+      'pdf/Fronius/Selektiva/Serviceanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Fronius/Fehlercodeliste.pdf',
+
+    '⚡ Elektroschaltplan':
+      'pdf/Fronius/Selektiva/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Fronius/Selektiva/Hydraulikschaltplan.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Fronius/Selektiva/Ersatzteilliste.pdf'
+  },
+
+  'Fronius Selectiva 3KW (Ladegrät)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Fronius/Selektiva 3KW/Bedienungsanleitung.pdf',
+
+    '📘 Serviceanleitung':
+      'pdf/Fronius/Selektiva 3KW/Serviceanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Fronius/Selektiva 3KW/Fehlercodeliste.pdf',
+
+    '⚡ Elektroschaltplan':
+      'pdf/Fronius/Selektiva 3KW/Schaltplan.pdf',
+
+    '💧 Hydraulikschaltplan':
+      'pdf/Fronius/Selektiva 3KW/Hydraulikschaltplan.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Fronius/Selektiva 3KW/Ersatzteilliste.pdf'
+    }
+  };
 
 
 /*
