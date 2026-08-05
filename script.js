@@ -3006,9 +3006,6 @@ const herstellerDaten = {
     '📄 Bedienungsanleitung':
       'pdf/Fronius/Selektiva/Bedienungsanleitung.pdf',
 
-    '📘 Serviceanleitung':
-      'pdf/Fronius/Selektiva/Serviceanleitung.pdf',
-
     '⚠️ Fehlercodes':
       'pdf/Fronius/Selektiva/Fehlercodeliste.pdf',
 
