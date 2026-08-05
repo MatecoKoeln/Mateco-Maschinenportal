@@ -3013,7 +3013,7 @@ const herstellerDaten = {
       'pdf/Fronius/Selektiva/Fehlercodeliste.pdf',
 
     '⚡ Menü Einstellung':
-      'pdf/Fronius/Selektiva/Schaltplan.pdf',
+      'pdf/Fronius/Selektiva/Menü Einstellung.pdf',
 
     '💧 Ladekennlinien':
       'pdf/Fronius/Selektiva/Ladekennlinien.pdf',
