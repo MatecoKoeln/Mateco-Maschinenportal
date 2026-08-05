@@ -3004,19 +3004,19 @@ const herstellerDaten = {
   'Ladegeräte': {
   'Fronius Selectiva (Werkstatt Ladegrät)': {
     '📄 Bedienungsanleitung':
-      'pdf/Fronius/Monostar/Bedienungsanleitung.pdf',
+      'pdf/Fronius/Selektiva/Bedienungsanleitung.pdf',
 
     '📘 Serviceanleitung':
       'pdf/Fronius/Selektiva/Serviceanleitung.pdf',
 
     '⚠️ Fehlercodes':
-      'pdf/Fronius/Fehlercodeliste.pdf',
+      'pdf/Fronius/Selektiva/Fehlercodeliste.pdf',
 
     '⚡ Elektroschaltplan':
       'pdf/Fronius/Selektiva/Schaltplan.pdf',
 
-    '💧 Hydraulikschaltplan':
-      'pdf/Fronius/Selektiva/Hydraulikschaltplan.pdf',
+    '💧 Ladekennlinien':
+      'pdf/Fronius/Selektiva/Ladekennlinien.pdf',
 
     '🔧 Ersatzteilliste':
       'pdf/Fronius/Selektiva/Ersatzteilliste.pdf'
