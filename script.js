@@ -3037,7 +3037,7 @@ const herstellerDaten = {
 
     '🔧 Ersatzteilliste':
       'pdf/Fronius/Selektiva 3KW/Ersatzteilliste.pdf'
-    }
+  },
 
   'Delta Q (IC Serie)': {
     '📄 Bedienungsanleitung':
