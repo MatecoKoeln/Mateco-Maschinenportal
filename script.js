@@ -3038,6 +3038,23 @@ const herstellerDaten = {
     '🔧 Ersatzteilliste':
       'pdf/Fronius/Selektiva 3KW/Ersatzteilliste.pdf'
     }
+
+  'Ladegeräte': {
+  'Delta Q (Werkstatt Ladegrät)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Delta Q/IC Series/Bedienungsanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Delta Q/IC Series/Fehlercodeliste.pdf',
+
+    '⚡ Menü Einstellung':
+      'pdf/Delta Q/IC Series/Menü Einstellung.pdf',
+
+    '💧 Ladekennlinien':
+      'pdf/Delta Q/IC Series/Ladekennlinien.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Delta Q/IC Series/Ersatzteilliste.pdf'
   }
   };
 
