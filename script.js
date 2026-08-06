@@ -3054,6 +3054,7 @@ const herstellerDaten = {
 
     '🔧 Ersatzteilliste':
       'pdf/Delta Q/IC Series/Ersatzteilliste.pdf'
+    }
   }
   };
 
