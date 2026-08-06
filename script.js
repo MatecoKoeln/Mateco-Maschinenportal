@@ -3039,7 +3039,7 @@ const herstellerDaten = {
       'pdf/Fronius/Selektiva 3KW/Ersatzteilliste.pdf'
     }
 
-  'Delta Q (Werkstatt Ladegrät)': {
+  'Delta Q (IC Serie)': {
     '📄 Bedienungsanleitung':
       'pdf/Delta Q/IC Series/Bedienungsanleitung.pdf',
 
