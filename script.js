@@ -3159,6 +3159,7 @@ if (!app) {
 
 let aktuellerHersteller = null;
 let aktuellesModell = null;
+let aktuelleDokumentKategorie = null;
 
 
 /*
@@ -3338,6 +3339,15 @@ function zeigeModelle(hersteller) {
 |--------------------------------------------------------------------------
 */
 
+function istDokumentSammlung(wert) {
+  return (
+    wert !== null &&
+    typeof wert === 'object' &&
+    !Array.isArray(wert)
+  );
+}
+
+
 function zeigeDokumente(
   hersteller,
   modell
@@ -3351,6 +3361,7 @@ function zeigeDokumente(
 
   aktuellerHersteller = hersteller;
   aktuellesModell = modell;
+  aktuelleDokumentKategorie = null;
 
   setNavigation(true, true);
 
@@ -3368,7 +3379,7 @@ function zeigeDokumente(
 
   if (dokumente.length === 0) {
     zeigeHinweis(
-      'Für dieses Modell sind noch keine Dokumente hinterlegt.'
+      'FÃ¼r dieses Modell sind noch keine Dokumente hinterlegt.'
     );
 
     return;
@@ -3380,17 +3391,114 @@ function zeigeDokumente(
   grid.className = 'grid';
 
   dokumente.forEach(
-    function ([dokumentTitel, pfad]) {
-      const button = erstelleButton(
-        dokumentTitel,
-        'document-btn maschine-btn',
-        function () {
-          oeffnePdf(
-            pfad,
-            dokumentTitel
-          );
-        }
-      );
+    function ([dokumentTitel, wert]) {
+
+      /*
+      |----------------------------------------------------------
+      | Einzelne PDF
+      |----------------------------------------------------------
+      */
+
+      if (typeof wert === 'string') {
+        const button = erstelleButton(
+          dokumentTitel,
+          'document-btn maschine-btn',
+          function () {
+            oeffnePdf(wert);
+          }
+        );
+
+        grid.appendChild(button);
+        return;
+      }
+
+
+      /*
+      |----------------------------------------------------------
+      | Mehrere PDFs
+      |----------------------------------------------------------
+      */
+
+      if (istDokumentSammlung(wert)) {
+        const anzahl =
+          Object.keys(wert).length;
+
+        const button = erstelleButton(
+          `${dokumentTitel} (${anzahl})`,
+          'document-btn maschine-btn',
+          function () {
+            zeigeDokumentUnterkategorie(
+              hersteller,
+              modell,
+              dokumentTitel,
+              wert
+            );
+          }
+        );
+
+        grid.appendChild(button);
+      }
+    }
+  );
+
+  app.appendChild(grid);
+}
+
+
+function zeigeDokumentUnterkategorie(
+  hersteller,
+  modell,
+  dokumentTitel,
+  dokumente
+) {
+  aktuellerHersteller = hersteller;
+  aktuellesModell = modell;
+  aktuelleDokumentKategorie =
+    dokumentTitel;
+
+  setNavigation(true, true);
+
+  app.innerHTML = '';
+
+  const titel =
+    document.createElement('h2');
+
+  titel.textContent =
+    `${modell} â€“ ${dokumentTitel}`;
+
+  app.appendChild(titel);
+
+  const eintraege =
+    Object.entries(dokumente);
+
+  if (eintraege.length === 0) {
+    zeigeHinweis(
+      'In dieser Kategorie sind noch keine Dokumente hinterlegt.'
+    );
+
+    return;
+  }
+
+  const grid =
+    document.createElement('div');
+
+  grid.className = 'grid';
+
+  eintraege.forEach(
+    function ([titel, pfad]) {
+
+      if (typeof pfad !== 'string') {
+        return;
+      }
+
+      const button =
+        erstelleButton(
+          `ðŸ“„ ${titel}`,
+          'document-btn maschine-btn',
+          function () {
+            oeffnePdf(pfad);
+          }
+        );
 
       grid.appendChild(button);
     }
@@ -3398,7 +3506,6 @@ function zeigeDokumente(
 
   app.appendChild(grid);
 }
-
 
 /*
 |--------------------------------------------------------------------------
@@ -3423,6 +3530,7 @@ function suche() {
 
   aktuellerHersteller = null;
   aktuellesModell = null;
+  aktuelleDokumentKategorie = null;
 
   setNavigation(false, true);
 
@@ -3448,6 +3556,13 @@ function suche() {
       function (
         [hersteller, modelleDaten]
       ) {
+
+        /*
+        |--------------------------------------------------------
+        | Hersteller suchen
+        |--------------------------------------------------------
+        */
+
         if (
           hersteller
             .toLowerCase()
@@ -3455,12 +3570,10 @@ function suche() {
         ) {
           grid.appendChild(
             erstelleButton(
-              `🏢 ${hersteller}`,
+              `ðŸ¢ ${hersteller}`,
               'search-result-btn hersteller-btn',
               function () {
-                zeigeModelle(
-                  hersteller
-                );
+                zeigeModelle(hersteller);
               }
             )
           );
@@ -3468,11 +3581,19 @@ function suche() {
           trefferGefunden = true;
         }
 
+
+        /*
+        |--------------------------------------------------------
+        | Modelle durchsuchen
+        |--------------------------------------------------------
+        */
+
         Object.entries(modelleDaten)
           .forEach(
             function (
               [modell, dokumenteDaten]
             ) {
+
               if (
                 modell
                   .toLowerCase()
@@ -3480,7 +3601,7 @@ function suche() {
               ) {
                 grid.appendChild(
                   erstelleButton(
-                    `📦 ${modell}`,
+                    `ðŸ“¦ ${modell}`,
                     'search-result-btn maschine-btn',
                     function () {
                       zeigeDokumente(
@@ -3494,37 +3615,146 @@ function suche() {
                 trefferGefunden = true;
               }
 
+
+              /*
+              |--------------------------------------------------
+              | Dokumente durchsuchen
+              |--------------------------------------------------
+              */
+
               Object.entries(
                 dokumenteDaten
               ).forEach(
                 function (
                   [
                     dokumentTitel,
-                    dokumentPfad
+                    dokumentWert
                   ]
                 ) {
-                  if (
-                    dokumentTitel
-                      .toLowerCase()
-                      .includes(
-                        suchbegriff
-                      )
-                  ) {
-                    grid.appendChild(
-                      erstelleButton(
-                        `${dokumentTitel} – ${modell}`,
-                        'search-result-btn',
-                        function () {
-                          oeffnePdf(
-                            dokumentPfad,
-                            dokumentTitel
-                          );
-                        }
-                      )
-                    );
 
-                    trefferGefunden =
-                      true;
+                  /*
+                  |----------------------------------------------
+                  | Einzelne PDF
+                  |----------------------------------------------
+                  */
+
+                  if (
+                    typeof dokumentWert ===
+                    'string'
+                  ) {
+                    if (
+                      dokumentTitel
+                        .toLowerCase()
+                        .includes(
+                          suchbegriff
+                        )
+                    ) {
+                      grid.appendChild(
+                        erstelleButton(
+                          `${dokumentTitel} â€“ ${modell}`,
+                          'search-result-btn',
+                          function () {
+                            oeffnePdf(
+                              dokumentWert
+                            );
+                          }
+                        )
+                      );
+
+                      trefferGefunden =
+                        true;
+                    }
+
+                    return;
+                  }
+
+
+                  /*
+                  |----------------------------------------------
+                  | Kategorie mit mehreren PDFs
+                  |----------------------------------------------
+                  */
+
+                  if (
+                    istDokumentSammlung(
+                      dokumentWert
+                    )
+                  ) {
+
+                    if (
+                      dokumentTitel
+                        .toLowerCase()
+                        .includes(
+                          suchbegriff
+                        )
+                    ) {
+                      grid.appendChild(
+                        erstelleButton(
+                          `${dokumentTitel} â€“ ${modell}`,
+                          'search-result-btn',
+                          function () {
+                            zeigeDokumentUnterkategorie(
+                              hersteller,
+                              modell,
+                              dokumentTitel,
+                              dokumentWert
+                            );
+                          }
+                        )
+                      );
+
+                      trefferGefunden =
+                        true;
+                    }
+
+
+                    /*
+                    |--------------------------------------------
+                    | PDFs innerhalb der Kategorie durchsuchen
+                    |--------------------------------------------
+                    */
+
+                    Object.entries(
+                      dokumentWert
+                    ).forEach(
+                      function (
+                        [
+                          unterTitel,
+                          unterPfad
+                        ]
+                      ) {
+
+                        if (
+                          typeof unterPfad !==
+                          'string'
+                        ) {
+                          return;
+                        }
+
+                        if (
+                          unterTitel
+                            .toLowerCase()
+                            .includes(
+                              suchbegriff
+                            )
+                        ) {
+                          grid.appendChild(
+                            erstelleButton(
+                              `${unterTitel} â€“ ${modell}`,
+                              'search-result-btn',
+                              function () {
+                                oeffnePdf(
+                                  unterPfad
+                                );
+                              }
+                            )
+                          );
+
+                          trefferGefunden =
+                            true;
+                        }
+                      }
+                    );
                   }
                 }
               );
@@ -3541,7 +3771,6 @@ function suche() {
     );
   }
 }
-
 
 /*
 |--------------------------------------------------------------------------
@@ -3573,6 +3802,33 @@ function schliessePdf() {
 */
 
 function geheZurueck() {
+
+  /*
+  |------------------------------------------------------------
+  | Aus einer Dokument-Unterkategorie zurÃ¼ck zum Modell
+  |------------------------------------------------------------
+  */
+
+  if (
+    aktuellerHersteller &&
+    aktuellesModell &&
+    aktuelleDokumentKategorie
+  ) {
+    zeigeDokumente(
+      aktuellerHersteller,
+      aktuellesModell
+    );
+
+    return;
+  }
+
+
+  /*
+  |------------------------------------------------------------
+  | Von Dokumenten zurÃ¼ck zur Modellliste
+  |------------------------------------------------------------
+  */
+
   if (
     aktuellerHersteller &&
     aktuellesModell
