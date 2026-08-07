@@ -72,13 +72,13 @@ const herstellerDaten = {
     '📄 Bedienungsanleitung':
         'pdf/Genie/GS1932/Bedienungsanleitung.pdf',
 
-    '📘 Serviceanleitung':
+    '📘 Serviceanleitung': {
       'Serviceanleitung SN GS32D-25101':
         'pdf/Genie/GS1932/Serviceanleitung SN GS32T_25101.pdf',
 
       'Serviceanleitung SN GS32T-10001':
         'pdf/Genie/GS1932/Serviceanleitung SN GS32T_10001.pdf'
-  }.
+  },
 
     '⚠️ Fehlercodes':
         'pdf/Genie/GS1932/Fehlercodeliste.pdf',
