@@ -3054,6 +3054,7 @@ const herstellerDaten = {
 
     '🔧 Ersatzteilliste':
       'pdf/Delta Q/IC Series/Ersatzteilliste.pdf'
+    }
   },
 
   'Kubota': {
@@ -3379,7 +3380,7 @@ function zeigeDokumente(
 
   if (dokumente.length === 0) {
     zeigeHinweis(
-      'FÃ¼r dieses Modell sind noch keine Dokumente hinterlegt.'
+      'Für dieses Modell sind noch keine Dokumente hinterlegt.'
     );
 
     return;
@@ -3464,7 +3465,7 @@ function zeigeDokumentUnterkategorie(
     document.createElement('h2');
 
   titel.textContent =
-    `${modell} â€“ ${dokumentTitel}`;
+    `${modell} – ${dokumentTitel}`;
 
   app.appendChild(titel);
 
@@ -3493,7 +3494,7 @@ function zeigeDokumentUnterkategorie(
 
       const button =
         erstelleButton(
-          `ðŸ“„ ${titel}`,
+          `📄 ${titel}`,
           'document-btn maschine-btn',
           function () {
             oeffnePdf(pfad);
@@ -3570,7 +3571,7 @@ function suche() {
         ) {
           grid.appendChild(
             erstelleButton(
-              `ðŸ¢ ${hersteller}`,
+              `🏢 ${hersteller}`,
               'search-result-btn hersteller-btn',
               function () {
                 zeigeModelle(hersteller);
@@ -3601,7 +3602,7 @@ function suche() {
               ) {
                 grid.appendChild(
                   erstelleButton(
-                    `ðŸ“¦ ${modell}`,
+                    `📦 ${modell}`,
                     'search-result-btn maschine-btn',
                     function () {
                       zeigeDokumente(
@@ -3651,7 +3652,7 @@ function suche() {
                     ) {
                       grid.appendChild(
                         erstelleButton(
-                          `${dokumentTitel} â€“ ${modell}`,
+                          `${dokumentTitel} – ${modell}`,
                           'search-result-btn',
                           function () {
                             oeffnePdf(
@@ -3690,7 +3691,7 @@ function suche() {
                     ) {
                       grid.appendChild(
                         erstelleButton(
-                          `${dokumentTitel} â€“ ${modell}`,
+                          `${dokumentTitel} – ${modell}`,
                           'search-result-btn',
                           function () {
                             zeigeDokumentUnterkategorie(
@@ -3740,7 +3741,7 @@ function suche() {
                         ) {
                           grid.appendChild(
                             erstelleButton(
-                              `${unterTitel} â€“ ${modell}`,
+                              `${unterTitel} – ${modell}`,
                               'search-result-btn',
                               function () {
                                 oeffnePdf(
@@ -3805,7 +3806,7 @@ function geheZurueck() {
 
   /*
   |------------------------------------------------------------
-  | Aus einer Dokument-Unterkategorie zurÃ¼ck zum Modell
+  | Aus einer Dokument-Unterkategorie zurück zum Modell
   |------------------------------------------------------------
   */
 
@@ -3825,7 +3826,7 @@ function geheZurueck() {
 
   /*
   |------------------------------------------------------------
-  | Von Dokumenten zurÃ¼ck zur Modellliste
+  | Von Dokumenten zurück zur Modellliste
   |------------------------------------------------------------
   */
 
