@@ -3054,6 +3054,24 @@ const herstellerDaten = {
 
     '🔧 Ersatzteilliste':
       'pdf/Delta Q/IC Series/Ersatzteilliste.pdf'
+  },
+
+  'Kubota': {
+  'D722 (Dieselmotor)': {
+    '📄 Bedienungsanleitung':
+      'pdf/Kubota/D722/Bedienungsanleitung.pdf',
+
+    '⚠️ Fehlercodes':
+      'pdf/Kubota/D722/Fehlercodeliste.pdf',
+
+    '⚡ Menü Einstellung':
+      'pdf/Kubota/D722/Menü Einstellung.pdf',
+
+    '💧 Ladekennlinien':
+      'pdf/Kubota/D722/Ladekennlinien.pdf',
+
+    '🔧 Ersatzteilliste':
+      'pdf/Kubota/D722/Ersatzteilliste.pdf'
     }
   }
   };
